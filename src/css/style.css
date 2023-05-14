@@ -1,0 +1,125 @@
+html {
+    font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    min-height: 100vh;
+    font-size: 1.1rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 25.0rem);
+    grid-template-rows: repeat(2, 25.0rem);
+
+    gap: 25px;
+}
+
+.container > div {
+    border-radius: 8px;
+    padding: 3.0rem;
+    display: grid;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.container .perfil {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.container .perfil .imagem {
+    border-radius: 50%;
+    border: white solid 1px;
+    width: 3.0rem;
+}
+
+.container .daniel .perfil .imagem {
+    border:  solid 1px;
+} 
+
+.container .daniel .perfil .nome {
+    color: hsl(0, 0%, 100%);
+}
+.container .jonathan .perfil .nome {
+    color: hsl(0, 0%, 100%);
+}
+.container .patrick .perfil .nome {
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+
+.container .daniel .perfil .sub-titulo {
+    color: hsl(0, 0%, 81%);
+}
+.container .jonathan .perfil .sub-titulo {
+    color: hsl(0, 0%, 81%);
+}
+.container .patrick .perfil .sub-titulo {
+    color: hsl(0, 0%, 81%);
+}
+
+
+
+
+.container .daniel .intro{
+    color: hsl(0, 0%, 100%);
+}
+.container .jonathan .intro{
+    color: hsl(0, 0%, 100%);
+}
+.container .patrick .intro{
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+
+.container .daniel .descricao {
+    color: hsl(0, 0%, 81%);
+}
+.container .jonathan .descricao {
+    color: hsl(0, 0%, 81%);
+}
+.container .patrick .descricao {
+    color: hsl(0, 0%, 81%);
+}
+
+.daniel {
+    
+    background: url(../images/bg-pattern-quotation.svg) no-repeat right top hsl(263, 55%, 52%);
+    grid-area: 1 / 1 / 1 / 3;
+}
+
+.jonathan {
+    background-color: hsl(217, 19%, 35%);
+    grid-area: 1 / 3 / 1 / 3;
+}
+
+.jeanette {
+    background-color: hsl(0, 0%, 100%);
+    grid-area: 2 / 1 / 2 / 1;
+}
+
+.patrick {
+    background-color: hsl(219, 29%, 14%);
+    grid-area: 2 / 2 / 2 / 4;
+}
+
+.kira {
+    background-color: hsl(0, 0%, 100%);
+    grid-area: 1 / 4 / 3 / 4;
+}
+
