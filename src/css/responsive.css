@@ -1,5 +1,8 @@
-@media(max-width: 1050px) {
+@media(max-width: 1030px) {
     .container {
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        max-width: 70%;
+        margin: 2rem 0;
     }
 }
