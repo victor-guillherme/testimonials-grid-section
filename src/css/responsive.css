@@ -1,8 +1,14 @@
-@media(max-width: 1030px) {
+@media(max-width: 1060px) {
     .container {
         display: flex;
         flex-direction: column;
         max-width: 70%;
         margin: 2rem 0;
+    }
+}
+
+@media(max-width: 780px) {
+    .container {
+        max-width: 80%;
     }
 }
